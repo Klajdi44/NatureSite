@@ -24,8 +24,8 @@ img {
 
 @font-face {
   font-family: "treeFont";
-  src: url(/tenderleaf/Pinewood.ttf);
-  font-style: bold;
+  src: url(tenderleaf/Pinewood.ttf);
+  font-style: normal;
 
 }
 
