@@ -226,7 +226,7 @@ nav li {
 }
 
 .imgcontainer {
-  background: url(/images/freshair.svg);
+  background: url(images/freshair.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -238,7 +238,7 @@ nav li {
 
 .imgcontainer2 {
 
-  background: url(/images/fishing.svg);
+  background: url(images/fishing.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -249,7 +249,7 @@ nav li {
 }
 
 .imgcontainer3 {
-  background: url(/images/planting.svg);
+  background: url(images/planting.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
