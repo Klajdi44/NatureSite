@@ -6,6 +6,30 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.li {
+  background-color: rgb(147, 126, 151);
+  width: 100%;
+  padding: 1em;
+  margin: .3em;
+  color: white;
+  display: flex;
+
+}
+
+.delBtn {
+  background: rgba(177, 28, 28, 0.603);
+  color: rgb(226, 210, 210);
+  border: none;
+  padding: .5em 1em;
+  margin-left: auto;
+
+}
+
+#ulList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 h2,
 h3,
@@ -272,6 +296,24 @@ nav li {
   text-align: center;
 }
 
+.toDoList {
+  position: relative;
+  min-height: 50vh;
+  background: linear-gradient(to right, #ebd1ab, #769c63);
+}
+
+.toDoList li {
+  list-style: none;
+}
+
+.toDoListWrapper {
+  position: absolute;
+  top: 40%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+
 /* desktop Version here */
 @media screen and (min-width: 700px) {
   .logo {
@@ -305,7 +347,7 @@ nav li {
     display: block;
     position: relative;
     width: auto;
-
+    background-color: unset;
   }
 
   nav ul {
@@ -336,10 +378,24 @@ nav li {
 
   .container {
     flex-direction: row;
+    height: 100vh;
+    position: relative;
   }
 
   .container p {
     max-width: 70ch;
+  }
+
+  .container::before {
+    content: "Nature";
+    position: absolute;
+    font-size: 15em;
+    letter-spacing: .4em;
+    color: #ffffff;
+    filter: drop-shadow(20px 20px 5px rgba(128, 128, 128, 0.582));
+    top: -10%;
+    opacity: .1;
+    z-index: -1;
   }
 
   .findingYourself {
@@ -351,7 +407,7 @@ nav li {
   }
 
   img {
-    max-width: 40%;
+    max-width: 39%;
   }
 
 }
